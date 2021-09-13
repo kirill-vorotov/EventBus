@@ -1,0 +1,12 @@
+{
+    "name": "com.kirillvorotov.eventbus",
+    "displayName": "EventBus",
+    "author": { "name": "Kirill Vorotov", "url": "https://kirillvorotov.com" },
+    "version": "1.0.0",
+    "unity": "2019.1",
+    "description": "Simple event bus.",
+    "keywords": [ "EventBus", "event", "Scripting" ],
+    "license": "MIT",
+    "category": "Scripting",
+    "dependencies": {}
+}
