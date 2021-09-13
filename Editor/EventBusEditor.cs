@@ -45,7 +45,7 @@ namespace KV.Events.Editor
                 }
 
                 var typename = type.FullName.Replace('+', '.');
-                writer.WriteLine($"new KV.EventBus.EventDispatcher<{typename}>();");
+                writer.WriteLine($"new KV.Events.EventDispatcher<{typename}>();");
             }
             writer.EndBlock();
             
